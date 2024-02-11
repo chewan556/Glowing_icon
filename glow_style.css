@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.para{
+    color:white;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.globe{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background: #252422;
+}
+
+
+.globe i{
+    font-size: 8em;
+    color: #f5f5f5;
+}
+
+.globe .globe-2{
+    animation: anim 2s linear infinite;
+}
+
+@keyframes anim{
+    0%{
+        text-shadow: 0 0 50px #fff,
+    0 0 75px #fff,
+    0 0 90px #fff;
+    }
+    30%{
+        text-shadow: 0 0 50px#4bdc4b,
+    0 0 75px #4adcd7,   
+    0 0 90px #b9a733;
+    }
+    70%{
+        text-shadow: 0 0 50px #fb3737,
+    0 0 75px #fb3737,
+    0 0 90px #fb3737;
+    }
+    100%{
+        text-shadow: 0 0 50px #fff,
+    0 0 75px #fff,
+    0 0 90px #fff;
+    }
+}
